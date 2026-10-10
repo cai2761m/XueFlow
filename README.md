@@ -1,4 +1,4 @@
-<h1 align="center">uXueScript 2.0</h1>
+<h1 align="center">XueFlow</h1>
 
 <p align="center">
   <img src="src-tauri/icons/icon.png" width="128" alt="uXueScript Logo">
@@ -30,11 +30,10 @@
 
 ---
 
-uXueScript 是面向学习通网页版课程的自动化辅助客户端。桌面端基于 **Rust + Tauri 2 + Vue 3** 开发，通过内嵌 WebView 加载课程页面并注入自动化核心脚本，支持在界面中实时同步章节进度；同时内置混淆字体还原与 AI 辅助答题能力，为测验提供参考答案。
+基于 [uXueScript](https://github.com/unraous/uxuescript) ，最初由 [unraous](https://github.com/unraous) 开发。本项目由独立维护，并遵循 GPL-3.0 许可协议。
 
-项目继承自旧版 [uXuexitongJS](https://github.com/unraous/uxuescript/tree/history)，核心自动化逻辑保留为单文件脚本（`core.js`），支持脱离客户端直接复制到浏览器控制台执行（无后端模式）。
+XueFlow 是面向学习通网页版课程的自动化辅助客户端。桌面端基于 **Rust + Tauri 2 + Vue 3** 开发，通过内嵌 WebView 加载课程页面并注入自动化核心脚本，支持在界面中实时同步章节进度；同时内置混淆字体还原与 AI 辅助答题能力，为测验提供参考答案。
 
-> 当前版本为 `v2.1.4`，处于持续演进与完善阶段。遇到问题建议先更新至最新 Release，并查阅[常见问题解答](docs/troubleshooting.md)。
 
 ## 运行预览
 
